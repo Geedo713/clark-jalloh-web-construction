@@ -1,8 +1,9 @@
 
   * {
     font-family: 'Titillium Web', sans-serif;
-
-
+  }
+  html {
+    overflow-y: none;
   }
   
   /*window/Page Control*/
@@ -53,7 +54,7 @@
     }
     .form-btn-div {
         position: relative;
-        bottom: 25px;
+        top: 25px;
         text-align: right;
         width: 100%;
     }
@@ -83,10 +84,102 @@
         display: flex;
     }
   } 
-  @media only screen and (min-width: 360px) and (min-height: 667px) {
+  @media only screen and (min-width: 360px) and (min-height: 760px) {
     body {
         margin-left: auto;
         margin-right: auto;
+    }
+    header {
+      background: grey;
+      width: 100%;
+      height: 70vh;
+      text-align: center;
+    }
+    h1,
+    p {
+        text-align: center;
+    }
+    p {
+      font-size: 20px;
+    }
+    h6 {
+      font-size: 20px;
+    }
+    .form-div {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      height: 100vh;
+    }
+    form {
+      background: rgba(28, 5, 90, 0.781);
+      width: 100%;
+      height: 50vh;
+      display: grid;
+      position: relative;
+      bottom: 20px;
+    }
+    .call-to-action {
+        text-align: center;
+        width: 100%;
+        font-size: 25px;
+        position: relative;
+        bottom: 5px;
+    }
+    .social-btn-cta {
+        padding-left: 40px;
+        font-size: 20px;
+    }
+    span {
+        color: white;
+    }
+    input {
+      font-size: 20px;
+      line-height: 50px;
+      background: none;
+      border: 1px solid black;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      padding-left: 10px;
+      position: relative;
+      bottom: 25px;
+    }
+    .form-btn-div {
+        position: relative;
+        bottom: 30px;
+        text-align: right;
+        width: 100%;
+    }
+    button {
+        background: rgba(32, 32, 224, 0.849);
+        text-transform: uppercase;
+        color: white;
+        font-size: 30px;
+        border: none;
+        width: 40%;
+        position: relative;
+        bottom: 25px;
+    }
+    .twitter,
+    .facebook,
+    .youtube,
+    .github,
+    .fiverr {
+        width: 20%;
+        position: relative;
+        bottom: 20px;
+    }
+    img {
+        width: 100%;
+    }
+    .footer-copy-rights {
+        width: 100%;
+        text-align: center;
+        height: 1vh;
+    }
+    footer {
+        display: flex;
     }
   }
   @media only screen and (min-width: 375px) and (min-height: 667px) {
@@ -95,10 +188,396 @@
         margin-right: auto;
     }
   }
+  @media only screen and (min-width: 360px) and (min-height: 800px) {
+    body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header {
+      background: grey;
+      width: 100%;
+      height: 70vh;
+      text-align: center;
+    }
+    h1,
+    p {
+        text-align: center;
+    }
+    p {
+      font-size: 20px;
+    }
+    h6 {
+      font-size: 20px;
+    }
+    .form-div {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      height: 100vh;
+    }
+    form {
+      background: rgba(28, 5, 90, 0.781);
+      width: 100%;
+      height: 50vh;
+      display: grid;
+      position: relative;
+      bottom: 20px;
+    }
+    .call-to-action {
+        text-align: center;
+        width: 100%;
+        font-size: 25px;
+        position: relative;
+        bottom: 5px;
+    }
+    .social-btn-cta {
+        padding-left: 40px;
+        font-size: 20px;
+    }
+    span {
+        color: white;
+    }
+    input {
+      font-size: 20px;
+      line-height: 50px;
+      background: none;
+      border: 1px solid black;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      padding-left: 10px;
+      position: relative;
+      bottom: 25px;
+    }
+    .form-btn-div {
+        position: relative;
+        bottom: 30px;
+        text-align: right;
+        width: 100%;
+    }
+    button {
+        background: rgba(32, 32, 224, 0.849);
+        text-transform: uppercase;
+        color: white;
+        font-size: 30px;
+        border: none;
+        width: 40%;
+        position: relative;
+        bottom: 25px;
+    }
+    .twitter,
+    .facebook,
+    .youtube,
+    .github,
+    .fiverr {
+        width: 20%;
+        position: relative;
+        bottom: 20px;
+    }
+    img {
+        width: 100%;
+    }
+    .footer-copy-rights {
+        width: 100%;
+        text-align: center;
+        height: 1vh;
+    }
+    footer {
+        display: flex;
+    }
+  }
+  @media only screen and (min-width: 375px) and (min-height: 667px) {
+    body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+  @media only screen and (min-width: 428px) and (min-height: 926px)  {
+    body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header {
+      background: grey;
+      width: 100%;
+      height: 70vh;
+      text-align: center;
+    }
+    h1,
+    p {
+        text-align: center;
+    }
+    p {
+      font-size: 40px;
+    }
+    h6 {
+      font-size: 20px;
+    }
+    .form-div {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      height: 100vh;
+    }
+    form {
+      background: rgba(28, 5, 90, 0.781);
+      width: 100%;
+      height: 40vh;
+      display: grid;
+      position: relative;
+      bottom: 15px;
+    }
+    .call-to-action {
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+        position: relative;
+        bottom: 10px;
+    }
+    .social-btn-cta {
+        padding-left: 40px;
+        font-size: 30px;
+    }
+    span {
+        color: white;
+    }
+    input {
+      font-size: 20px;
+      line-height: 50px;
+      background: none;
+      border: 1px solid black;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      padding-left: 10px;
+      position: relative;
+      bottom: 40px;
+    }
+    .form-btn-div {
+        position: relative;
+        bottom: 25px;
+        text-align: right;
+        width: 100%;
+    }
+    button {
+        background: rgba(32, 32, 224, 0.849);
+        text-transform: uppercase;
+        color: white;
+        font-size: 30px;
+        border: none;
+        width: 40%;
+    }
+    .twitter,
+    .facebook,
+    .youtube,
+    .github,
+    .fiverr {
+        width: 20%;
+        position: relative;
+        bottom: 15px;
+    }
+    img {
+        width: 100%;
+    }
+    .footer-copy-rights {
+        width: 100%;
+        text-align: center;
+        height: 1vh;
+    }
+    footer {
+        display: flex;
+    }
+  }
+  @media only screen and (min-width: 428px) and (min-height: 926px)  {
+    body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header {
+      background: grey;
+      width: 100%;
+      height: 70vh;
+      text-align: center;
+    }
+    h1,
+    p {
+        text-align: center;
+    }
+    p {
+      font-size: 40px;
+    }
+    h6 {
+      font-size: 20px;
+    }
+    .form-div {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      height: 100vh;
+    }
+    form {
+      background: rgba(28, 5, 90, 0.781);
+      width: 100%;
+      height: 40vh;
+      display: grid;
+      position: relative;
+      bottom: 15px;
+    }
+    .call-to-action {
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+        position: relative;
+        bottom: 10px;
+    }
+    .social-btn-cta {
+        padding-left: 40px;
+        font-size: 30px;
+    }
+    span {
+        color: white;
+    }
+    input {
+      font-size: 20px;
+      line-height: 50px;
+      background: none;
+      border: 1px solid black;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      padding-left: 10px;
+      position: relative;
+      bottom: 40px;
+    }
+    .form-btn-div {
+        position: relative;
+        bottom: 20px;
+        text-align: right;
+        width: 100%;
+    }
+    button {
+        background: rgba(32, 32, 224, 0.849);
+        text-transform: uppercase;
+        color: white;
+        font-size: 30px;
+        border: none;
+        width: 40%;
+    }
+    .twitter,
+    .facebook,
+    .youtube,
+    .github,
+    .fiverr {
+        width: 20%;
+        position: relative;
+        bottom: 15px;
+    }
+    img {
+        width: 100%;
+    }
+    .footer-copy-rights {
+        width: 100%;
+        text-align: center;
+        height: 1vh;
+    }
+    footer {
+        display: flex;
+    }
+  }
   @media only screen and (min-width: 412px) and (min-height: 896px) {
     body {
         margin-left: auto;
         margin-right: auto;
+    }
+    header {
+      background: grey;
+      width: 100%;
+      height: 70vh;
+      text-align: center;
+    }
+    h1,
+    p {
+        text-align: center;
+    }
+    p {
+      font-size: 40px;
+    }
+    h6 {
+      font-size: 20px;
+    }
+    .form-div {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      height: 100vh;
+    }
+    form {
+      background: rgba(28, 5, 90, 0.781);
+      width: 100%;
+      height: 40vh;
+      display: grid;
+      position: relative;
+      bottom: 15px;
+    }
+    .call-to-action {
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+        position: relative;
+        bottom: 10px;
+    }
+    .social-btn-cta {
+        padding-left: 40px;
+        font-size: 30px;
+    }
+    span {
+        color: white;
+    }
+    input {
+      font-size: 20px;
+      line-height: 50px;
+      background: none;
+      border: 1px solid black;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      padding-left: 10px;
+      position: relative;
+      bottom: 40px;
+    }
+    .form-btn-div {
+        position: relative;
+        bottom: 20px;
+        text-align: right;
+        width: 100%;
+    }
+    button {
+        background: rgba(32, 32, 224, 0.849);
+        text-transform: uppercase;
+        color: white;
+        font-size: 30px;
+        border: none;
+        width: 40%;
+    }
+    .twitter,
+    .facebook,
+    .youtube,
+    .github,
+    .fiverr {
+        width: 20%;
+        position: relative;
+        bottom: 15px;
+    }
+    img {
+        width: 100%;
+    }
+    .footer-copy-rights {
+        width: 100%;
+        text-align: center;
+        height: 1vh;
+    }
+    footer {
+        display: flex;
     }
   }
   @media only screen and (min-width: 414px) and (min-height: 896px) {
@@ -107,6 +586,271 @@
         margin-right: auto;
     }
   }
+  @media only screen and (min-width: 428px) and (min-height: 926px)  {
+    body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header {
+      background: grey;
+      width: 100%;
+      height: 70vh;
+      text-align: center;
+    }
+    h1,
+    p {
+        text-align: center;
+    }
+    p {
+      font-size: 40px;
+    }
+    h6 {
+      font-size: 20px;
+    }
+    .form-div {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      height: 100vh;
+    }
+    form {
+      background: rgba(28, 5, 90, 0.781);
+      width: 100%;
+      height: 40vh;
+      display: grid;
+      position: relative;
+      bottom: 15px;
+    }
+    .call-to-action {
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+        position: relative;
+        bottom: 10px;
+    }
+    .social-btn-cta {
+        padding-left: 40px;
+        font-size: 30px;
+    }
+    span {
+        color: white;
+    }
+    input {
+      font-size: 20px;
+      line-height: 50px;
+      background: none;
+      border: 1px solid black;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      padding-left: 10px;
+      position: relative;
+      bottom: 40px;
+    }
+    .form-btn-div {
+        position: relative;
+        bottom: 25px;
+        text-align: right;
+        width: 100%;
+    }
+    button {
+        background: rgba(32, 32, 224, 0.849);
+        text-transform: uppercase;
+        color: white;
+        font-size: 30px;
+        border: none;
+        width: 40%;
+    }
+    .twitter,
+    .facebook,
+    .youtube,
+    .github,
+    .fiverr {
+        width: 20%;
+        position: relative;
+        bottom: 15px;
+    }
+    img {
+        width: 100%;
+    }
+    .footer-copy-rights {
+        width: 100%;
+        text-align: center;
+        height: 1vh;
+    }
+    footer {
+        display: flex;
+    }
+  }
+
+@media only screen and (min-width: 540px) and (min-height: 720px)  {
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+  background: grey;
+  width: 100%;
+  height: 70vh;
+  text-align: center;
+}
+h1,
+p {
+    text-align: center;
+}
+p {
+  font-size: 60px;
+}
+h6 {
+  font-size: 30px;
+}
+.form-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 70vh;
+}
+form {
+  background: rgba(28, 5, 90, 0.781);
+  width: 100%;
+  height: 30vh;
+  display: grid;
+}
+.call-to-action {
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+}
+.social-btn-cta {
+    padding-left: 40px;
+    font-size: 30px;
+}
+span {
+    color: white;
+}
+input {
+  font-size: 20px;
+  line-height: 50px;
+  background: none;
+  border: 1px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-left: 10px;
+  position: relative;
+  bottom: 50px;
+}
+.form-btn-div {
+    position: relative;
+    bottom: 25px;
+    text-align: right;
+    width: 100%;
+}
+button {
+    background: rgba(32, 32, 224, 0.849);
+    text-transform: uppercase;
+    color: white;
+    font-size: 50px;
+    border: none;
+    width: 40%;
+}
+.twitter,
+.facebook,
+.youtube,
+.github,
+.fiverr {
+    width: 20%;
+    position: relative;
+    bottom: 15px;
+}
+img {
+    width: 100%;
+}
+.footer-copy-rights {
+    width: 100%;
+    text-align: center;
+}
+footer {
+    display: flex;
+}
+}
+@media only screen and (min-width: 768px) and (min-height: 1024px)  {
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+  background: grey;
+  width: 100%;
+  height: 40vh;
+  text-align: center;
+}
+h1,
+p {
+    text-align: center;
+}
+.form-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+form {
+  background: rgba(28, 5, 90, 0.781);
+  width: 100%;
+  height: 65vh;
+}
+.call-to-action {
+    text-align: center;
+    width: 100%;
+}
+.social-btn-cta {
+    padding-left: 40px;
+}
+span {
+    color: white;
+}
+input {
+  line-height: 30px;
+  background: none;
+  border: 1px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-left: 10px;
+}
+.form-btn-div {
+    position: relative;
+    bottom: 25px;
+    text-align: right;
+    width: 100%;
+}
+button {
+    background: rgba(32, 32, 224, 0.849);
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    width: 40%;
+}
+.twitter,
+.facebook,
+.youtube,
+.github,
+.fiverr {
+    height: 60px;
+    width: 20%;
+    background: rgba(32, 32, 224, 0.849);;
+}
+img {
+    width: 100%;
+}
+.footer-copy-rights {
+    width: 100%;
+    text-align: center;
+}
+footer {
+    display: flex;
+}
+}
   
   @media only screen and (min-width: 470px) and (min-height: 800px) {
     body {
@@ -122,7 +866,7 @@
     header {
       background: grey;
       width: 100%;
-      height: 40vh;
+      height: 70vh;
       text-align: center;
     }
     h1,
@@ -139,11 +883,12 @@
       margin-left: auto;
       margin-right: auto;
       width: 100%;
+      height: 100vh;
     }
     form {
       background: rgba(28, 5, 90, 0.781);
       width: 100%;
-      height: 10vh;
+      height: 40vh;
       display: grid;
     }
     .call-to-action {
@@ -159,7 +904,7 @@
         color: white;
     }
     input {
-      font-size: 50px;
+      font-size: 20px;
       line-height: 50px;
       background: none;
       border: 1px solid black;
@@ -374,24 +1119,393 @@
         margin-left: auto;
         margin-right: auto;
     }
+    header {
+      background: grey;
+      width: 100%;
+      height: 70vh;
+      text-align: center;
+    }
+    h1,
+    p {
+        text-align: center;
+    }
+    p {
+      font-size: 20px;
+    }
+    h6 {
+      font-size: 20px;
+    }
+    .form-div {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      height: 100vh;
+    }
+    form {
+      background: rgba(28, 5, 90, 0.781);
+      width: 100%;
+      height: 60vh;
+      display: grid;
+      position: relative;
+      bottom: 20px;
+    }
+    .call-to-action {
+        text-align: center;
+        width: 100%;
+        font-size: 25px;
+        position: relative;
+        bottom: 5px;
+    }
+    .social-btn-cta {
+        padding-left: 40px;
+        font-size: 20px;
+    }
+    span {
+        color: white;
+    }
+    input {
+      font-size: 20px;
+      line-height: 50px;
+      background: none;
+      border: 1px solid black;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      padding-left: 10px;
+      position: relative;
+      bottom: 25px;
+    }
+    .form-btn-div {
+        position: relative;
+        bottom: 30px;
+        text-align: right;
+        width: 100%;
+    }
+    button {
+        background: rgba(32, 32, 224, 0.849);
+        text-transform: uppercase;
+        color: white;
+        font-size: 30px;
+        border: none;
+        width: 40%;
+        position: relative;
+        top: 10px;
+    }
+    .twitter,
+    .facebook,
+    .youtube,
+    .github,
+    .fiverr {
+        width: 20%;
+    }
+    img {
+        width: 100%;
+    }
+    .footer-copy-rights {
+        width: 100%;
+        text-align: center;
+        height: 1vh;
+    }
+    footer {
+        position: relative;
+        bottom: 30px;
+        display: flex;
+    }
   }
   
   @media only screen and (min-width: 1280px) and (min-height: 800px) {
     body {
         margin-left: auto;
         margin-right: auto;
-  }
+    }
+    header {
+      background: grey;
+      width: 100%;
+      height: 70vh;
+      text-align: center;
+    }
+    h1,
+    p {
+        text-align: center;
+    }
+    p {
+      font-size: 20px;
+    }
+    h6 {
+      font-size: 20px;
+    }
+    .form-div {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      height: 100vh;
+    }
+    form {
+      background: rgba(28, 5, 90, 0.781);
+      width: 100%;
+      height: 50vh;
+      display: grid;
+      position: relative;
+      bottom: 20px;
+    }
+    .call-to-action {
+        text-align: center;
+        width: 100%;
+        font-size: 25px;
+        position: relative;
+        bottom: 5px;
+    }
+    .social-btn-cta {
+        padding-left: 40px;
+        font-size: 20px;
+    }
+    span {
+        color: white;
+    }
+    input {
+      font-size: 20px;
+      line-height: 50px;
+      background: none;
+      border: 1px solid black;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      padding-left: 10px;
+      position: relative;
+      bottom: 25px;
+    }
+    .form-btn-div {
+        position: relative;
+        bottom: 40px;
+        text-align: right;
+        width: 100%;
+    }
+    button {
+        background: rgba(32, 32, 224, 0.849);
+        text-transform: uppercase;
+        color: white;
+        font-size: 30px;
+        border: none;
+        width: 40%;
+        position: relative;
+        bottom: 30px;
+    }
+    .twitter,
+    .facebook,
+    .youtube,
+    .github,
+    .fiverr {
+        width: 20%;
+        position: relative;
+        bottom: 20px;
+    }
+    img {
+        width: 100%;
+    }
+    .footer-copy-rights {
+        width: 100%;
+        text-align: center;
+        height: 1vh;
+    }
+    footer {
+        display: flex;
+    }
   }
   @media only screen and (min-width: 1350px) and (min-height: 900px) {
     body {
         margin-left: auto;
         margin-right: auto;
     }
+    header {
+      background: grey;
+      width: 100%;
+      height: 70vh;
+      text-align: center;
+    }
+    h1,
+    p {
+        text-align: center;
+    }
+    p {
+      font-size: 20px;
+    }
+    h6 {
+      font-size: 20px;
+    }
+    .form-div {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      height: 100vh;
+    }
+    form {
+      background: rgba(28, 5, 90, 0.781);
+      width: 100%;
+      height: 50vh;
+      display: grid;
+      position: relative;
+      bottom: 20px;
+    }
+    .call-to-action {
+        text-align: center;
+        width: 100%;
+        font-size: 25px;
+        position: relative;
+        bottom: 5px;
+    }
+    .social-btn-cta {
+        padding-left: 40px;
+        font-size: 20px;
+    }
+    span {
+        color: white;
+    }
+    input {
+      font-size: 20px;
+      line-height: 50px;
+      background: none;
+      border: 1px solid black;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      padding-left: 10px;
+      position: relative;
+      bottom: 25px;
+    }
+    .form-btn-div {
+        position: relative;
+        bottom: 30px;
+        text-align: right;
+        width: 100%;
+    }
+    button {
+        background: rgba(32, 32, 224, 0.849);
+        text-transform: uppercase;
+        color: white;
+        font-size: 30px;
+        border: none;
+        width: 40%;
+        position: relative;
+        bottom: 25px;
+    }
+    .twitter,
+    .facebook,
+    .youtube,
+    .github,
+    .fiverr {
+        width: 20%;
+        position: relative;
+        bottom: 20px;
+    }
+    img {
+        width: 100%;
+    }
+    .footer-copy-rights {
+        width: 100%;
+        text-align: center;
+        height: 1vh;
+    }
+    footer {
+        display: flex;
+    }
   }
   @media only screen and (min-width: 1450px) and (min-height: 1000px) {
     body {
         margin-left: auto;
         margin-right: auto;
+        max-width: 1200px;
+    }
+    header {
+      background: grey;
+      width: 100%;
+      height: 70vh;
+      text-align: center;
+    }
+    h1,
+    p {
+        text-align: center;
+    }
+    p {
+      font-size: 20px;
+    }
+    h6 {
+      font-size: 20px;
+    }
+    .form-div {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      height: 100vh;
+    }
+    form {
+      background: rgba(28, 5, 90, 0.781);
+      width: 100%;
+      height: 50vh;
+      display: grid;
+      position: relative;
+      bottom: 20px;
+    }
+    .call-to-action {
+        text-align: center;
+        width: 100%;
+        font-size: 25px;
+        position: relative;
+        bottom: 5px;
+    }
+    .social-btn-cta {
+        padding-left: 40px;
+        font-size: 20px;
+    }
+    span {
+        color: white;
+    }
+    input {
+      font-size: 20px;
+      line-height: 50px;
+      background: none;
+      border: 1px solid black;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      padding-left: 10px;
+      position: relative;
+      bottom: 25px;
+    }
+    .form-btn-div {
+        position: relative;
+        bottom: 30px;
+        text-align: right;
+        width: 100%;
+    }
+    button {
+        background: rgba(32, 32, 224, 0.849);
+        text-transform: uppercase;
+        color: white;
+        font-size: 30px;
+        border: none;
+        width: 40%;
+        position: relative;
+        bottom: 25px;
+    }
+    .twitter,
+    .facebook,
+    .youtube,
+    .github,
+    .fiverr {
+        width: 20%;
+        position: relative;
+        bottom: 20px;
+    }
+    img {
+        width: 100%;
+    }
+    .footer-copy-rights {
+        width: 100%;
+        text-align: center;
+        height: 1vh;
+    }
+    footer {
+        display: flex;
     }
   }
   @media only screen and (min-width: 1750px) and (min-height: 1200px) {
@@ -399,5 +1513,96 @@
         margin-left: auto;
         margin-right: auto;
     }
-    
+    header {
+      background: grey;
+      width: 100%;
+      height: 70vh;
+      text-align: center;
+    }
+    h1,
+    p {
+        text-align: center;
+    }
+    p {
+      font-size: 20px;
+    }
+    h6 {
+      font-size: 20px;
+    }
+    .form-div {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      height: 100vh;
+    }
+    form {
+      background: rgba(28, 5, 90, 0.781);
+      width: 100%;
+      height: 50vh;
+      display: grid;
+      position: relative;
+      bottom: 20px;
+    }
+    .call-to-action {
+        text-align: center;
+        width: 100%;
+        font-size: 25px;
+        position: relative;
+        bottom: 5px;
+    }
+    .social-btn-cta {
+        padding-left: 40px;
+        font-size: 20px;
+    }
+    span {
+        color: white;
+    }
+    input {
+      font-size: 20px;
+      line-height: 50px;
+      background: none;
+      border: 1px solid black;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      padding-left: 10px;
+      position: relative;
+      bottom: 25px;
+    }
+    .form-btn-div {
+        position: relative;
+        bottom: 30px;
+        text-align: right;
+        width: 100%;
+    }
+    button {
+        background: rgba(32, 32, 224, 0.849);
+        text-transform: uppercase;
+        color: white;
+        font-size: 30px;
+        border: none;
+        width: 40%;
+        position: relative;
+        bottom: 25px;
+    }
+    .twitter,
+    .facebook,
+    .youtube,
+    .github,
+    .fiverr {
+        width: 20%;
+        position: relative;
+        bottom: 20px;
+    }
+    img {
+        width: 100%;
+    }
+    .footer-copy-rights {
+        width: 100%;
+        text-align: center;
+        height: 1vh;
+    }
+    footer {
+        display: flex;
+    }
   }
