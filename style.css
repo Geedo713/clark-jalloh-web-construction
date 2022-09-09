@@ -1,6 +1,8 @@
 
   * {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+
+
   }
   
   /*window/Page Control*/
@@ -41,6 +43,7 @@
         color: white;
     }
     input {
+      line-height: 30px;
       background: none;
       border: 1px solid black;
       border-top: none;
@@ -50,7 +53,7 @@
     }
     .form-btn-div {
         position: relative;
-        bottom: 11px;
+        bottom: 25px;
         text-align: right;
         width: 100%;
     }
