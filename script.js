@@ -16,6 +16,6 @@ form.addEventListener('submit', e => {
         submitBtn.innerHTML = "Submitted";
         submitBtn.innerHTML = "Submit";
         form.reset();
-        alert('Thanks for committing to the cause!', response)})
+        alert('Thank you, we will contact you shortly!', response)})
     .catch(error => alert('Error!', error.message))
 })
