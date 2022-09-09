@@ -964,6 +964,9 @@ footer {
     p {
         text-align: center;
     }
+    p {
+      font-size: 30px;
+    }
     .form-div {
       margin-left: auto;
       margin-right: auto;
