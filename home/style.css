@@ -76,7 +76,7 @@
       margin-right: auto;
   }
 }
-@media only screen and (min-width: 768px) and (min-height: 1024px) {
+@media only screen and () and (min-height: 1024px) {
   body {
       margin-left: auto;
       margin-right: auto;

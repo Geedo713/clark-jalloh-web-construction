@@ -5,6 +5,7 @@ const name = document.getElementById("name")
 const email = document.getElementById("email");
 const phoneNumber = document.getElementById("telephone");
 const message = document.getElementById("message");
+
 form.addEventListener('submit', e => {
     e.preventDefault();
     submitBtn.disabled = true;
