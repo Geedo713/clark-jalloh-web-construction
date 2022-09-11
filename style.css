@@ -1,6 +1,7 @@
 
   * {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+
   }
   html {
     overflow-y: none;
@@ -35,6 +36,20 @@
     #submit:hover {
       cursor: pointer;
     }
+
+    .call-to-action {
+      text-align: center;
+      width: 100%;
+      position: relative;
+      top: 5px;
+  }
+
+  .form-btn-div {
+    position: relative;
+    top: 20px;
+    text-align: right;
+    width: 100%;
+}
 
   
   /*window/Page Control*/
