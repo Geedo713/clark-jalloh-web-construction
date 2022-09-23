@@ -1,14 +1,27 @@
 
   * {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
 
-  }
   html {
     overflow-y: none;
   }
 
   body {
     max-width: 900px;
+  }
+
+  section {
+    display: flex;
+    text-align: center;
+  }
+
+  .buy-now-div {
+    width: 50%;
+  }
+
+  .buy-now-div-two {
+    width: 50%;
   }
     .twitter,
     .facebook,
@@ -36,6 +49,7 @@
     #submit {
       position: relative;
       bottom: 30px;
+      border-radius: 3px;
     }
 
     #submit:hover {
@@ -54,6 +68,11 @@
     top: 20px;
     text-align: right;
     width: 100%;
+}
+
+section {
+  max-width: 700px;
+  text-align: center;
 }
 
   
@@ -114,6 +133,7 @@
         text-transform: uppercase;
         color: white;
         border: none;
+        border-radius: 3px;
         width: 40%;
     }
     #submit:hover {
@@ -204,6 +224,7 @@
         font-size: 30px;
         border: none;
         width: 40%;
+        border-radius: 3px;
     }
     #submit:hover {
       cursor: pointer;
@@ -303,6 +324,7 @@
         width: 40%;
         position: relative;
         bottom: 20px;
+        border-radius: 3px;
     }
     #submit:hover {
       cursor: pointer;
@@ -402,6 +424,7 @@
         width: 40%;
         position: relative;
         bottom: 20px;
+        border-radius: 3px;
     }
     #submit:hover {
       cursor: pointer;
@@ -492,6 +515,7 @@
       font-size: 30px;
       border: none;
       width: 40%;
+      border-radius: 3px;
   }
   #submit:hover {
     cursor: pointer;
@@ -582,6 +606,7 @@
       font-size: 30px;
       border: none;
       width: 40%;
+      border-radius: 3px;
   }
   #submit:hover {
     cursor: pointer;
@@ -672,6 +697,7 @@
       font-size: 30px;
       border: none;
       width: 40%;
+      border-radius: 3px;
   }
   #submit:hover {
     cursor: pointer;
@@ -762,6 +788,7 @@
         font-size: 30px;
         border: none;
         width: 40%;
+        border-radius: 3px;
     }
     #submit:hover {
       cursor: pointer;
@@ -852,6 +879,7 @@
         font-size: 30px;
         border: none;
         width: 40%;
+        border-radius: 3px;
     }
     #submit:hover {
       cursor: pointer;
@@ -945,6 +973,7 @@
         width: 40%;
         position: relative;
         top: -5px;
+        border-radius: 3px;
     }
     #submit:hover {
       cursor: pointer;
@@ -1035,6 +1064,7 @@
         width: 40%;
         position: relative;
         bottom: 5px;
+        border-radius: 3px;
     }
     .twitter,
     .facebook,
@@ -1129,6 +1159,7 @@
         font-size: 30px;
         border: none;
         width: 40%;
+        border-radius: 3px;
     }
     .twitter,
     .facebook,
@@ -1225,6 +1256,7 @@
         font-size: 30px;
         border: none;
         width: 40%;
+        border-radius: 3px;
     }
     .twitter,
     .facebook,
@@ -1320,6 +1352,7 @@
         font-size: 30px;
         border: none;
         width: 40%;
+        border-radius: 3px;
     }
     .twitter,
     .facebook,
@@ -1415,6 +1448,7 @@
         font-size: 30px;
         border: none;
         width: 40%;
+        border-radius: 3px;
     }
     .twitter,
     .facebook,
@@ -1519,6 +1553,7 @@
         width: 40%;
         position: relative;
         bottom: 20px;
+        border-radius: 3px;
     }
     .twitter,
     .facebook,
@@ -1612,6 +1647,7 @@ input {
     font-size: 50px;
     border: none;
     width: 40%;
+    border-radius: 3px;
 }
 .twitter,
 .facebook,
@@ -1690,6 +1726,7 @@ input {
     color: white;
     border: none;
     width: 40%;
+    border-radius: 3px;
 }
 .twitter,
     .facebook,
@@ -1787,6 +1824,7 @@ input {
         font-size: 50px;
         border: none;
         width: 40%;
+        border-radius: 3px;
     }
     .twitter,
     .facebook,
@@ -1864,6 +1902,7 @@ input {
         color: white;
         border: none;
         width: 40%;
+        border-radius: 3px;
     }
     .twitter,
     .facebook,
@@ -1943,6 +1982,7 @@ input {
         color: white;
         border: none;
         width: 40%;
+        border-radius: 3px;
     }
     .twitter,
     .facebook,
@@ -2022,6 +2062,7 @@ input {
         color: white;
         border: none;
         width: 40%;
+        border-radius: 3px;
     }
     .twitter,
     .facebook,
@@ -2103,6 +2144,7 @@ input {
         width: 40%;
         position: relative;
         top: 10px;
+        border-radius: 3px;
     }
     .twitter,
     .facebook,
@@ -2183,6 +2225,7 @@ input {
         color: white;
         border: none;
         width: 40%;
+        border-radius: 3px;
     }
     .twitter,
     .facebook,
@@ -2279,6 +2322,7 @@ input {
         width: 40%;
         position: relative;
         top: 10px;
+        border-radius: 3px;
     }
     .twitter,
     .facebook,
@@ -2381,6 +2425,7 @@ input {
         width: 40%;
         position: relative;
         bottom: 30px;
+        border-radius: 3px;
     }
     .twitter,
     .facebook,
@@ -2479,6 +2524,7 @@ input {
         width: 40%;
         position: relative;
         bottom: 25px;
+        border-radius: 3px;
     }
     .twitter,
     .facebook,
@@ -2578,6 +2624,7 @@ input {
         width: 40%;
         position: relative;
         bottom: 25px;
+        border-radius: 3px;
     }
     .twitter,
     .facebook,
@@ -2676,6 +2723,7 @@ input {
         width: 40%;
         position: relative;
         bottom: 25px;
+        border-radius: 3px;
     }
     .twitter,
     .facebook,
