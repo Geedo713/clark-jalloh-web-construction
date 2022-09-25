@@ -4,12 +4,13 @@
 <loc>https://jallohwebconstruction.com</loc>
 <lastmod>2022-25-09</lastmod>
 <changefreq>weekly</changefreq>
-<priority>1.0</priority>
+<priority>1</priority>
 </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemaps/0.9">
 <url>
 <loc>https://jallohwebconstruction.com/shop/</loc>
 <lastmod>2022-25-09</lastmod>
 <changefreq>weekly</changefreq>
-<priority>2.0</priority>
+<priority>2</priority>
 </url>
 </urlset>
