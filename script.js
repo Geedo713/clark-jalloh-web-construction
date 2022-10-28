@@ -1,3 +1,14 @@
+const services = document.getElementById("services");
+const textArray = ['Website creation', 'Website deployment', 'Website maintenance', 'SEO optimization'];
+let text = -1;
+
+window.setInterval(function() {
+    text++;
+    if (text === textArray.length) 
+      text = 0;
+      services.innerHTML = textArray[text];  
+    }, 2000);
+
 const url = "https://docs.google.com/forms/u/2/d/e/1FAIpQLSdSUiJJ-NS4hS50FlGmUICnn-2u3AdfAdrfdccpm3O4YyBilg/formResponse";
 const form = document.querySelector('form');
 const submitBtn = document.getElementById("submit");
