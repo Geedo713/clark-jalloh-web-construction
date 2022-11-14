@@ -13,7 +13,7 @@
     }
 
     img {
-        @apply w-1/3 relative top-20;
+        @apply w-1/3 relative;
     }
 
     .all-header-text {

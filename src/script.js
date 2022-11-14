@@ -1,5 +1,10 @@
 const services = document.getElementById("services");
-const textArray = ['Website creation', 'Website deployment', 'Website maintenance', 'SEO optimization'];
+const textArray = [
+    'Website creation', 
+    'Website deployment', 
+    'Website maintenance', 
+    'SEO optimization'
+];
 let text = -1;
 
 window.setInterval(function() {
